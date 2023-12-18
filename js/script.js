@@ -8,4 +8,12 @@ console.log('JS OK');
 // 6- calcolare costo biglietto
 // 7- risulato con massimo 2 decimale
 
+// step 1 - 2
+const km = parseInt(prompt('Quanti km devi percorrere?', '93'))
+const ageUser = parseInt(prompt('Quanti anni hai?', '25'))
+
+console.log(km + ' km da percorrere', ageUser + ' eta dell utente')
+
+const ticket = (km * 0.21).toFixed(2)
+console.log(ticket)
 
